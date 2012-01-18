@@ -194,6 +194,7 @@ app.get('/changeProfile', middleware.isLogged, function(req, res) {
 });
 
 app.post('/changeProfile', middleware.isLogged, function(req, res, next) {
+  return next(new errors.Permission('Not allowed for DEMO'));
   var reRenderForm = function() {
     res.render('changeProfile', {
       formval: req.body
