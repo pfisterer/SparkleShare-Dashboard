@@ -5,7 +5,7 @@
 	"Login": "Anmelden",
 	"SparkleShare Dashboard": "SparkleShare Dashboard",
 	"The SparkleShare Community": "Die SparkleShare Community",
-	"Change profile": "Profil wechseln",
+	"Change profile": "Profil ändern",
 	"Manage users": "Benutzer verwalten",
 	"Linked devices": "Verbundene Geräte",
 	"Logout": "Abmelden",
@@ -26,9 +26,9 @@
 	"Link with your mobile SparkleShare device": "Verbinden Sie ihre mobilen SparkleShare Geräte",
 	"URL:": "URL:",
 	"Link code:": "Linkcode:",
-	"New code will be generated in": "Neuen Code wird generiert in",
+	"New code will be generated in": "Neuer Code wird generiert in",
 	"seconds": "Sekunden",
-	"Linked Devices": "Verknüpfte Geräte",
+	"Linked Devices": "Verbundene Geräte",
 	"You have no linked devices": "Sie haben keine verbundenen Geräte",
 	"Link new device": "Neues Gerät verbinden",
 	"Owner": "Besitzer",
@@ -57,5 +57,7 @@
 	"User created": "Benutzer erstellt",
 	"User deleted": "Benutzer gelöscht",
 	"Device updated": "Gerät geändert",
-	"Device unlinked": "Gerät entfernt"
+	"Device unlinked": "Gerät entfernt",
+	"Recent changes": "Letzte Änderungen",
+	"Back to folder": "Zurück zur Ordner"
 }
