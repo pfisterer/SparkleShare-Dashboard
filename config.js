@@ -39,4 +39,4 @@ exports.backend = {
 
 
 // choose which redis db to use (0 is default)
-exports.redisdb = '1';
+exports.redisdb = '0';
