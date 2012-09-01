@@ -36,3 +36,7 @@ exports.backend = {
     'bin': 'git'
   }
 };
+
+
+// choose which redis db to use (0 is default)
+exports.redisdb = '1';

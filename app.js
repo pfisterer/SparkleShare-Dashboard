@@ -12,6 +12,10 @@ var utils = require('./utils');
 var RedisStore = require('connect-redis')(express);
 var redis = require('redis'), redisClient = redis.createClient();
 
+if (config.redisdb != '0') {
+  redisClient.select(config.redisdb);
+}
+
 var app = null;
 if (config.https.enabled) {
   var fs = require("fs");
