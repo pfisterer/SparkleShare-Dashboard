@@ -178,7 +178,7 @@ GitBackend.prototype = {
       });
     }
 
-    g.on('exit', function(code) {
+    g.on('close', function(code) {
       if (code) {
         return next(new Error('GIT failed'));
       } else {
